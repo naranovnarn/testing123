@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../fonts/TTLakes/TTLakes-Regular.eot");
+  src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+    url("../fonts/TTLakes/TTLakes-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/TTLakes/TTLakes-Regular.woff") format("woff"),
+    url("../fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../fonts/TTLakes/TTLakes-Bold.eot");
+  src: local("TT Lakes Bold"), local("TTLakes-Bold"),
+    url("../fonts/TTLakes/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TTLakes/TTLakes-Bold.woff") format("woff"),
+    url("../fonts/TTLakes/TTLakes-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../fonts/TTLakes/TTLakes-Medium.eot");
+  src: local("TT Lakes Medium"), local("TTLakes-Medium"),
+    url("../fonts/TTLakes/TTLakes-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/TTLakes/TTLakes-Medium.woff") format("woff"),
+    url("../fonts/TTLakes/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: "TT Lakes";
+  color: #1b1c21;
+  background: #f2f2f2;
+}
+
+.container {
+  height: 1200px;
+  width: 320px;
+  margin: 0 auto;
+  background: #f8f8f8;
+}
+.upper-menu {
+  display: flex;
+  justify-content: flex-start;
+  height: 88px;
+  margin: 0;
+  background: #fff;
+  border-bottom: 1px solid #d9fff5;
+}
+.upper-menu__left-part {
+  display: flex;
+  flex-grow: 0;
+}
+
+.upper-menu__left-part > .upper-menu__item {
+  margin-left: 15px;
+}
+
+.upper-menu__right-part > .upper-menu__item {
+  margin-right: 15px;
+}
+
+.upper-menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-link {
+}
+.btn-link__img {
+}
+.logo {
+}
+.upper-menu__right-part {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.upper-menu__delimetr {
+  height: 32px;
+  width: 2px;
+  background: #eaeaea;
+}
+.btn-limk__img {
+}
+.title__box {
+  width: 300px;
+  margin: 25px 0;
+}
+.title {
+  border-left: 4px solid #41f6d7;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  box-sizing: border-box;
+}
+.title__text {
+  margin: 0;
+  text-indent: 15px;
+  font-size: 28px;
+  letter-spacing: -0.6px;
+  color: #1b1c21;
+  font-weight: bold;
+}
+.slide-menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.slide-menu__items {
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.slide-menu__item_active {
+  background: #Fff;
+  border-radius: 5px;
+  border: 2px solid #B8FFEC;
+  box-sizing: border-box;
+}
+.slide-menu__item {
+  margin-right: 5px;
+  height: 40px;
+  font-weight: 500;
+  color: #7e7e82;
+  padding: 8px 15px;
+  list-style: none;
+  display: inline-block;
+}
+.slide-menu__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.slide-menu__description {
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+.slide-menu__text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #1b1c21;
+}
+.slide-menu__more-btn {
+  margin-left: 48px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  text-decoration: none !important;
+  color: #1b1c21 !important;
+}
+.slide-menu__img-box {
+}
+.slide-menu___img {
+}
